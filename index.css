@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-color: #004aad;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffda47;
+}
+
+/* Button */
+.header-btn button {
+  background-color: #ffda47;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.header-btn button:hover {
+  background-color: #ffd100;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffda47;
+}
+
+/* Button */
+.header-btn button {
+  background-color: #ffda47;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.header-btn button:hover {
+  background-color:#ffd100;
+}
+.nav
+{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: orangered;
+}
+.img
+{
+  width: 100%;
+}
+.img2
+{
+  width: 100%;
+}
+.hp
+{
+  color: rgb(63, 6, 133);
+}
+.aimg
+{
+  width: 100%;
+}
